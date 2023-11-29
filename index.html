@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Inventory</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group
+        {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-3">
+        
+        <header>
+            <h1>Abhi's Product Catalog</h1>
+        </header>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="d-block d-lg-none">
+                <form id="productForm">
+                    <div class="form-group">
+                        <label for="productSelect">Product</label>
+                        <select class="form-control" id="productSelect">
+                            <option value="airpods">Samsung S23 Ultra</option>
+                            <option value="headphones">Iphone 15 Pro Max</option>
+                            <option value="speaker">Asus TUF Gaming</option>
+                            <option value="watch">Smartwatch</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="orderCheckbox">
+                        <label class="form-check-label" for="orderCheckbox">Place Order</label>
+                    </div>
+                    
+                   
+                
+                </form>
+                <div class="form-group-1">
+                    <label for="quantityRange">Quantity</label>
+                    <input type="range" class="form-control-range" id="quantityRange">
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <img src="image/img.jpeg" class="img-fluid" alt="Product">
+                <p class="text-center">Display: It boasts a 6.8-inch Dynamic AMOLED display, offering vivid colors and sharp details. The display also supports a 120Hz refresh rate, enhancing the smoothness of motion on the screen.
+
+                    Camera: The device features a sophisticated quad-camera setup, which includes a 200 MP main sensor. This high-resolution sensor is complemented by two telephoto sensors, allowing for versatile photography options.
+                    
+                    Performance: Powered by the Qualcomm Snapdragon 8 Gen 2 chipset, the S23 Ultra promises robust performance. This, coupled with up to 12GB of RAM and 1TB of storage, makes it a powerhouse for both everyday tasks and demanding applications.
+                    
+                    Battery and Other Features: It is equipped with a 5000mAh battery, ensuring long-lasting usage. Additionally, the S23 Ultra includes a S Pen, providing users with enhanced productivity and creative capabilities.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Available</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Galaxy S23 Ultra</td>
+                            <td>$1,199</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>iPhone 15 Pro Max</td>
+                            <td>$1,099</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>Pixel 7 Pro</td>
+                            <td>$899</td>
+                            <td>15</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="d-none d-sm-block">
+                <form id="productForm">
+                    <div class="form-group">
+                        <label for="productSelect">Product</label>
+                        <select class="form-control" id="productSelect">
+                            <option value="airpods">Samsung S23 Ultra</option>
+                            <option value="headphones">Iphone 15 Pro Max</option>
+                            <option value="speaker">Asus TUF Gaming</option>
+                            <option value="watch">Smartwatch</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="orderCheckbox">
+                        <label class="form-check-label" for="orderCheckbox">Place Order</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantityRange">Quantity</label>
+                        <input type="range" class="form-control-range" id="quantityRange">
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+
+        
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
